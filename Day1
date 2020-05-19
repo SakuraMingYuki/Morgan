@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>information</title>
+    </head>
+    <body>
+        <h1>简历</h1>
+        <h2>基本信息</h2>
+        <p>姓名:张三&nbsp;&nbsp;&nbsp;性别:男&nbsp;&nbsp;&nbsp;应聘职位:前端工程师</p>
+        <hr />
+        <h2>联系方式</h2>
+        <p>手机:***********&nbsp;&nbsp;&nbsp;邮箱:********@baidu.com</p>
+        <hr />
+        <h2>能力描述</h2>
+        <b><p>技术能力</p></b>
+        <ol>
+            <li>熟练的掌握HTML CSS Javascript</li>
+            <li>熟悉Vue框架</li>
+        </ol>
+        <b><p>综合能力</p></b>
+        <ul>
+            <li>良好的沟通能力</li>
+            <li>较好的逻辑分析能力</li>
+            <li>思路清晰，思维缜密</li>
+            <li>主动积极，努力勤奋</li>
+        </ul>
+        <hr />
+        <h2>教育经历</h2>
+        <b><p>本科</p></b>
+        <blockquote>百度前端学院</blockquote>
+        <hr />
+        <h2>项目经历</h2>
+        <p><b>XXXXXX</b><br />
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX<br />
+        <b>XXXXX</b><br />
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        XXXXXXXXXXXXXXXXXXXX</p>
+    </body>
+</html>
