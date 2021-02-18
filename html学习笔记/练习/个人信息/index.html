@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人信息</title>
+</head>
+<body>
+    <h4>个人信息</h4>
+    <table>
+        <tr>
+            <td>性别：</td>
+            <td>
+                <label for="nan">男 </label><input type="radio" name="sex" checked="checked" id="nan">
+                <label for="nv">女 </label><input type="radio" name="sex" id="nv">
+            </td>
+        </tr>
+        <tr>
+            <td>生日：</td>
+            <td>
+                <select>
+                    <option hidden="hidden">-请选择年-</option>
+                    <option>1998</option>
+                    <option>1999</option>         
+                </select>
+                <select>
+                    <option hidden="hidden">-请选择月-</option>
+                    <option>12</option>
+                    <option>10</option>
+                    <option>8</option>
+                    <option>6</option>
+                    <option>4</option>
+                    <option>2</option>
+                </select>
+                <select>
+                    <option hidden="hidden">-请选择日-</option>
+                    <option>1</option>
+                    <option>7</option>
+                    <option>13</option>
+                    <option>19</option>
+                    <option>25</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>所在地区：</td>
+            <td>
+                <input type="text" value="北京">
+            </td>
+        </tr> 
+        <tr> 
+            <td>婚姻状况：</td>
+            <td>
+                <label for="wei" checked="checked">未婚</label><input type="radio" name="hunyin" id="wei">
+                <label for="yi">已婚</label><input type="radio" name="hunyin" id="yi">
+                <label for="li">离婚</label><input type="radio" name="hunyin" id="li">
+            </td>
+        </tr>
+        <tr>
+            <td>学历</td>
+            <td>
+                <select>
+                    <option>小学</option>
+                    <option>初中</option>
+                    <option>高中</option>
+                    <option>本科</option>
+                    <option>专科</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>爱好：</td>
+            <td>
+                <label for="game">游戏</label><input type="checkbox" name="hobby" id="game">
+                <label for="study">学习</label><input type="checkbox" name="hobby" id="study">
+                <label for="sport">运动</label><input type="checkbox" name="hobby" id="sport">
+            </td>
+        </tr>
+        <tr>
+            <td>自我介绍</td>
+            <td>
+                <textarea>自我介绍</textarea>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit" value="提交" name="submit"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="checkbox" checked="checked">我承诺以上信息皆为属实</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>我承诺
+                <ul>
+                    <li>以上数据皆为本人数据</li>
+                    <li>以上数据皆为属实数据</li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
