@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>学习笔记</title>
+</head>
+<body>
+    <div name="表单">
+        <form action=xxx.php" method="POST" name="form1">
+            <!-- label 标签为input元素定义标注（标签） 用于绑定一个表单元素 
+            当点击label标签内的文本时，浏览器就会自动将焦点（光标）转到或者选择对应的表单元素上，用于提升用户体验 -->
+            <label for="username">用户名: </label>
+            <!-- text 文本框 用户可以里面输入任何文字 -->
+            <!-- maxlength 规定输入字段中字符的最大长度 -->
+            <!-- value 规定input元素的值 -->
+            <input type="text" maxlength="16" value="请输入用户名" id="username"><br />
+            <!-- password 密码框 用户无法看到输入内容 -->
+            <label for="psd">密码: </label>
+            <input type="password" id="psd"><br />
+            <!-- radio 单选按钮 可以实现多选一 -->
+            <!-- name 表单元素名字 如需实现多选一 单选按钮必须要有相同的名字 -->
+            <!-- checked 规定此input元素首次加载时应当被选中 -->
+            性别:
+            <label for="nan">男 </label><input type="radio" name="sex" checked="checked" id="nan">
+            <label for="nv">女 </label><input type="radio" name="sex" id="nv"><br />
+            <!-- checkbox 复选框 可以实现多选 -->
+            <!-- 单选框和复选框如果是一组，名字必须相同 -->
+            爱好:
+            <label for="game">游戏</label><input type="checkbox" name="hobbies" id="game">
+            <label for="study">学习 </label><input type="checkbox" name="hobbies" id="study">
+            <label for="sport">运动 </label><input type="checkbox" name="hobbies" id="sport"><br />
+            <!-- select 多选项，并且需要节省页面空间时可以使用 -->
+            <!-- selected 在option中定义 当前项为默认选中项 -->
+            期望发展城市：
+            <select>
+                <option selected="selected">北京</option>
+                <option>上海</option>
+                <option>广州</option>
+                <option>深圳</option>
+            </select><br />
+            <!-- submit 提交按钮 单击后可以把表单域里面表单元素的值提交给后台服务器 -->
+            <input type="submit" value="提交">
+            <!-- reset 重置按钮 单击后可以还原表单元素的初始默认状态 -->
+            <input type="reset" value="重置">
+            <!-- button 普通按钮 定义点击按钮 后期结合js搭配使用 -->
+            <input type="button" value="普通按钮"><br />
+            <!-- file 文件域 用于上传文件 -->
+            上传文件: <input type="file">
+        </form>
+    </div>
+</body>
+</html>
